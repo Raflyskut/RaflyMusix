@@ -8,10 +8,10 @@ bot = Bot(
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
-    plugins=dict(root="GohanMusic"),
+    plugins=dict(root="RaflyMusix"),
 )
 
-print("GOHAN MUSIC STARTED!")
+print("RAFLY MUSIX STARTED!")
 
 bot.start()
 run()
