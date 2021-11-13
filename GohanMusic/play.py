@@ -37,12 +37,12 @@ arq = ARQ("https://thearq.tech", ARQ_API_KEY, aiohttpsession)
 
 
 GOHAN_IMG = [
-    "https://telegra.ph/file/159431ea489ecc68f19f0.png",
-    "https://telegra.ph/file/1588cb26e8c79a80d6c32.png",
-    "https://telegra.ph/file/9fb646ad170d0512aa447.png",
-    "https://telegra.ph/file/c03210961ae494a616542.png",
-    "https://telegra.ph/file/07db27b4941d88d200121.png",
-    "https://telegra.ph/file/6d88487537ed16d78f7bf.png",
+    "https://telegra.ph/file/2a7533f21bf36924560ea.jpg",
+    "https://telegra.ph/file/2a7533f21bf36924560ea.jpg",
+    "https://telegra.ph/file/2a7533f21bf36924560ea.jpg",
+    "https://telegra.ph/file/2a7533f21bf36924560ea.jpg",
+    "https://telegra.ph/file/2a7533f21bf36924560ea.jpg",
+    "https://telegra.ph/file/2a7533f21bf36924560ea.jpg",
 ]
 
 
@@ -475,7 +475,7 @@ async def play(_, message: Message):
         )
         file_name = get_file_name(audio)
         title = audio.title
-        thumb_name = "https://telegra.ph/file/f6086f8909fbfeb0844f2.png"
+        thumb_name = "https://telegra.ph/file/2a7533f21bf36924560ea.jpg"
         thumbnail = thumb_name
         duration = convert_seconds(audio.duration)
         views = "Locally added"
@@ -539,7 +539,7 @@ async def play(_, message: Message):
             results = YoutubeSearch(query, max_results=5).to_dict()
         except:
             await lel.edit("**anda tidak memberikan judul lagu apapun !**")
-        # 𝗚𝗢𝗛𝗔𝗡 𝗠𝗨𝗦𝗜𝗖 tolol
+        # ᴋɪᴘʟɪ ᴍᴜsɪᴄ tolol
         try:
             toxxt = f"**⚡ Silahkan pilih lagu yang ingin anda putar:** {rpk}\n\n"
             j = 0
@@ -587,9 +587,9 @@ async def play(_, message: Message):
             )
 
             await lel.delete()
-            # 𝗚𝗢𝗛𝗔𝗡 𝗠𝗨𝗦𝗜𝗖 tolol
+            # ᴋɪᴘʟɪ ᴍᴜsɪᴄ tolol
             return
-            # 𝗚𝗢𝗛𝗔𝗡 𝗠𝗨𝗦𝗜𝗖 tolol
+            # ᴋɪᴘʟɪ ᴍᴜsɪᴄ tolol
         except:
             await lel.edit(f"**Tidak menemukan hasil apapun\nLangsung memutar lagu**")
             try:
@@ -813,7 +813,7 @@ async def ytp(_, message: Message):
 
         file_name = get_file_name(audio)
         title = audio.title
-        thumb_name = "https://telegra.ph/file/f6086f8909fbfeb0844f2.png"
+        thumb_name = "https://telegra.ph/file/2a7533f21bf36924560ea.jpg"
         thumbnail = thumb_name
         duration = convert_seconds(audio.duration)
         views = message.from_user.first_name
@@ -859,7 +859,7 @@ async def ytp(_, message: Message):
             )
         except Exception:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/33fc5c8490eb948d1e816.jpg"
+            thumb_name = "https://telegra.ph/file/2a7533f21bf36924560ea.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
